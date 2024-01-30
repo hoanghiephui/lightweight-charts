@@ -4,7 +4,6 @@ apply plugin: 'maven-publish'
 
 android {
     compileSdk 33
-    buildToolsVersion "33.0.0"
 
     defaultConfig {
         /*
@@ -38,8 +37,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
-    implementation 'androidx.webkit:webkit:1.7.0'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.22'
+    implementation 'androidx.webkit:webkit:1.10.0'
     implementation 'com.google.code.gson:gson:2.10.1'
 }
 
